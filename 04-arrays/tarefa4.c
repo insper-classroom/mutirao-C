@@ -7,17 +7,6 @@
 #include <stdio.h>
 
 /* TODO: implemente sua função conta_1 aqui */
-int conta_1(char *s){
-    int cnt = 0;
-    int i = 0;
-    while(s[i] != '\0'){
-        if(s[i] == '1'){
-            cnt++;
-        }
-        i++;
-    }
-    return cnt;
-}
 
 int main() {
     
